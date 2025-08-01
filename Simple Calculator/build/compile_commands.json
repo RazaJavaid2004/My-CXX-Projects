@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/Courses/My Codes/My-Projects/C++ Projects/Simple Calculator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/SimpleCalculator.dir/includes_CXX.rsp -g -o CMakeFiles\\SimpleCalculator.dir\\src\\main.cpp.obj -c \"D:\\Courses\\My Codes\\My-Projects\\C++ Projects\\Simple Calculator\\src\\main.cpp\"",
+  "file": "D:/Courses/My Codes/My-Projects/C++ Projects/Simple Calculator/src/main.cpp",
+  "output": "CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Courses/My Codes/My-Projects/C++ Projects/Simple Calculator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/SimpleCalculator.dir/includes_CXX.rsp -g -o CMakeFiles\\SimpleCalculator.dir\\src\\simplecalculator.cpp.obj -c \"D:\\Courses\\My Codes\\My-Projects\\C++ Projects\\Simple Calculator\\src\\simplecalculator.cpp\"",
+  "file": "D:/Courses/My Codes/My-Projects/C++ Projects/Simple Calculator/src/simplecalculator.cpp",
+  "output": "CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj"
+}
+]
