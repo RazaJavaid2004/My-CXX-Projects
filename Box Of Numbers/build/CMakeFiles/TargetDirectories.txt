@@ -1,0 +1,3 @@
+D:/Courses/My Codes/My-Projects/C++ Projects/Box Of Numbers/build/CMakeFiles/BoxOfNumbers.dir
+D:/Courses/My Codes/My-Projects/C++ Projects/Box Of Numbers/build/CMakeFiles/edit_cache.dir
+D:/Courses/My Codes/My-Projects/C++ Projects/Box Of Numbers/build/CMakeFiles/rebuild_cache.dir
