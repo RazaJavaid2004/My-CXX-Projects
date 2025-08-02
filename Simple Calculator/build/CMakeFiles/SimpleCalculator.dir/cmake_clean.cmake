@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj"
   "CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj.d"
-  "CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj"
-  "CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj.d"
+  "CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj"
+  "CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj.d"
   "SimpleCalculator.exe"
   "SimpleCalculator.exe.manifest"
   "SimpleCalculator.pdb"

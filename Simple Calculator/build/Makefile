@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator"
+CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My C++ Projects\Simple Calculator"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build"
+CMAKE_BINARY_DIR = "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles" "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles" "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -152,29 +152,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/simplecalculator.obj: src/simplecalculator.cpp.obj
-.PHONY : src/simplecalculator.obj
+src/simpleCalculator.obj: src/simpleCalculator.cpp.obj
+.PHONY : src/simpleCalculator.obj
 
 # target to build an object file
-src/simplecalculator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj
-.PHONY : src/simplecalculator.cpp.obj
+src/simpleCalculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj
+.PHONY : src/simpleCalculator.cpp.obj
 
-src/simplecalculator.i: src/simplecalculator.cpp.i
-.PHONY : src/simplecalculator.i
+src/simpleCalculator.i: src/simpleCalculator.cpp.i
+.PHONY : src/simpleCalculator.i
 
 # target to preprocess a source file
-src/simplecalculator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.i
-.PHONY : src/simplecalculator.cpp.i
+src/simpleCalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.i
+.PHONY : src/simpleCalculator.cpp.i
 
-src/simplecalculator.s: src/simplecalculator.cpp.s
-.PHONY : src/simplecalculator.s
+src/simpleCalculator.s: src/simpleCalculator.cpp.s
+.PHONY : src/simpleCalculator.s
 
 # target to generate assembly for a file
-src/simplecalculator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.s
-.PHONY : src/simplecalculator.cpp.s
+src/simpleCalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.s
+.PHONY : src/simpleCalculator.cpp.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/simplecalculator.obj
-	@echo ... src/simplecalculator.i
-	@echo ... src/simplecalculator.s
+	@echo ... src/simpleCalculator.obj
+	@echo ... src/simpleCalculator.i
+	@echo ... src/simpleCalculator.s
 .PHONY : help
 
 

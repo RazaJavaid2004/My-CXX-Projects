@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator"
+CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My C++ Projects\Simple Calculator"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build"
+CMAKE_BINARY_DIR = "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SimpleCalculator.dir/depend.make
@@ -73,49 +73,49 @@ CMakeFiles/SimpleCalculator.dir/codegen:
 
 CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj: CMakeFiles/SimpleCalculator.dir/flags.make
 CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj: CMakeFiles/SimpleCalculator.dir/includes_CXX.rsp
-CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj: D:/Courses/My\ Codes/My-Projects/C++\ Projects/Simple\ Calculator/src/main.cpp
+CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj: D:/Courses/My\ Codes/My\ C++\ Projects/Simple\ Calculator/src/main.cpp
 CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj: CMakeFiles/SimpleCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj -MF CMakeFiles\SimpleCalculator.dir\src\main.cpp.obj.d -o CMakeFiles\SimpleCalculator.dir\src\main.cpp.obj -c "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\src\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj -MF CMakeFiles\SimpleCalculator.dir\src\main.cpp.obj.d -o CMakeFiles\SimpleCalculator.dir\src\main.cpp.obj -c "D:\Courses\My Codes\My C++ Projects\Simple Calculator\src\main.cpp"
 
 CMakeFiles/SimpleCalculator.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleCalculator.dir/src/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\src\main.cpp" > CMakeFiles\SimpleCalculator.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My C++ Projects\Simple Calculator\src\main.cpp" > CMakeFiles\SimpleCalculator.dir\src\main.cpp.i
 
 CMakeFiles/SimpleCalculator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleCalculator.dir/src/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\src\main.cpp" -o CMakeFiles\SimpleCalculator.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My C++ Projects\Simple Calculator\src\main.cpp" -o CMakeFiles\SimpleCalculator.dir\src\main.cpp.s
 
-CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj: CMakeFiles/SimpleCalculator.dir/flags.make
-CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj: CMakeFiles/SimpleCalculator.dir/includes_CXX.rsp
-CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj: D:/Courses/My\ Codes/My-Projects/C++\ Projects/Simple\ Calculator/src/simplecalculator.cpp
-CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj: CMakeFiles/SimpleCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj -MF CMakeFiles\SimpleCalculator.dir\src\simplecalculator.cpp.obj.d -o CMakeFiles\SimpleCalculator.dir\src\simplecalculator.cpp.obj -c "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\src\simplecalculator.cpp"
+CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj: CMakeFiles/SimpleCalculator.dir/flags.make
+CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj: CMakeFiles/SimpleCalculator.dir/includes_CXX.rsp
+CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj: D:/Courses/My\ Codes/My\ C++\ Projects/Simple\ Calculator/src/simpleCalculator.cpp
+CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj: CMakeFiles/SimpleCalculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj -MF CMakeFiles\SimpleCalculator.dir\src\simpleCalculator.cpp.obj.d -o CMakeFiles\SimpleCalculator.dir\src\simpleCalculator.cpp.obj -c "D:\Courses\My Codes\My C++ Projects\Simple Calculator\src\simpleCalculator.cpp"
 
-CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\src\simplecalculator.cpp" > CMakeFiles\SimpleCalculator.dir\src\simplecalculator.cpp.i
+CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My C++ Projects\Simple Calculator\src\simpleCalculator.cpp" > CMakeFiles\SimpleCalculator.dir\src\simpleCalculator.cpp.i
 
-CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\src\simplecalculator.cpp" -o CMakeFiles\SimpleCalculator.dir\src\simplecalculator.cpp.s
+CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My C++ Projects\Simple Calculator\src\simpleCalculator.cpp" -o CMakeFiles\SimpleCalculator.dir\src\simpleCalculator.cpp.s
 
 # Object files for target SimpleCalculator
 SimpleCalculator_OBJECTS = \
 "CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj" \
-"CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj"
+"CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj"
 
 # External object files for target SimpleCalculator
 SimpleCalculator_EXTERNAL_OBJECTS =
 
 SimpleCalculator.exe: CMakeFiles/SimpleCalculator.dir/src/main.cpp.obj
-SimpleCalculator.exe: CMakeFiles/SimpleCalculator.dir/src/simplecalculator.cpp.obj
+SimpleCalculator.exe: CMakeFiles/SimpleCalculator.dir/src/simpleCalculator.cpp.obj
 SimpleCalculator.exe: CMakeFiles/SimpleCalculator.dir/build.make
 SimpleCalculator.exe: CMakeFiles/SimpleCalculator.dir/linkLibs.rsp
 SimpleCalculator.exe: CMakeFiles/SimpleCalculator.dir/objects1.rsp
 SimpleCalculator.exe: CMakeFiles/SimpleCalculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SimpleCalculator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SimpleCalculator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SimpleCalculator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/SimpleCalculator.dir/clean:
 .PHONY : CMakeFiles/SimpleCalculator.dir/clean
 
 CMakeFiles/SimpleCalculator.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator" "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator" "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build" "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build" "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles\SimpleCalculator.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Courses\My Codes\My C++ Projects\Simple Calculator" "D:\Courses\My Codes\My C++ Projects\Simple Calculator" "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build" "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build" "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles\SimpleCalculator.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimpleCalculator.dir/depend
 

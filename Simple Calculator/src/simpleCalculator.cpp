@@ -1,12 +1,8 @@
 #include <iostream>
 #include <limits>
-#include <stdexcept>
 #include "simpleCalculator.h"
 using namespace std;
 
-// Function definitions moved from header to implementation file
-
-// FIXED: Updated to match class name in header
 double SimpleCalculator::sum(int n1, int n2) const {
     return n1 + n2;
 }
@@ -20,8 +16,12 @@ double SimpleCalculator::multiply(int n1, int n2) const {
 }
 
 double SimpleCalculator::divide(int n1, int n2) const {
-    if (n2 == 0) throw runtime_error("Error! Division by Zero!");
-    return static_cast<double>(n1) / n2;
+    if(n2 != 0) {
+        return static_cast<double>(n1) / n2;
+    } else {
+        cerr << "Error: Division by zero is not allowed. \n";
+        return numeric_limits<double>::quiet_NaN(); // Return NaN for division by zero
+    }
 }
 
 void SimpleCalculator::calculate() {
@@ -50,8 +50,11 @@ void SimpleCalculator::calculate() {
         }
 
         int n1, n2;
-        cout << "Enter the Numbers: \n";
-        cin >> n1 >> n2;
+        cout << "Enter the First Number: ";
+        cin >> n1;
+        cout << "Enter the Second Number: ";
+        cin >> n2;
+
         if (cin.fail()) {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -59,8 +62,7 @@ void SimpleCalculator::calculate() {
             continue;
         }
 
-        try {
-            switch (choice) {
+        switch (choice) {
                 case 1:
                     cout << "Sum: " << sum(n1, n2) << endl;
                     break;
@@ -74,8 +76,5 @@ void SimpleCalculator::calculate() {
                     cout << "Quotient: " << divide(n1, n2) << endl;
                     break;
             }
-        } catch (const exception& e) {
-            cout << e.what() << endl;
-        }
     }
 }

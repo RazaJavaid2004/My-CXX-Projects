@@ -4,5 +4,4 @@ project(SimpleCalculator)
 
 include_directories(include)
 
-# MODIFIED: Added src/simplecalculator.cpp to sources
-add_executable(SimpleCalculator src/main.cpp src/simplecalculator.cpp)
+add_executable(SimpleCalculator src/main.cpp src/simpleCalculator.cpp)

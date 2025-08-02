@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator"
+CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My C++ Projects\Simple Calculator"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build"
+CMAKE_BINARY_DIR = "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/SimpleCalculator.dir/clean
 CMakeFiles/SimpleCalculator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=1,2,3 "Built target SimpleCalculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=1,2,3 "Built target SimpleCalculator"
 .PHONY : CMakeFiles/SimpleCalculator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SimpleCalculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SimpleCalculator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles" 0
 .PHONY : CMakeFiles/SimpleCalculator.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ SimpleCalculator: CMakeFiles/SimpleCalculator.dir/rule
 # codegen rule for target.
 CMakeFiles/SimpleCalculator.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleCalculator.dir\build.make CMakeFiles/SimpleCalculator.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target SimpleCalculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My C++ Projects\Simple Calculator\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target SimpleCalculator"
 .PHONY : CMakeFiles/SimpleCalculator.dir/codegen
 
 # clean rule for target.
