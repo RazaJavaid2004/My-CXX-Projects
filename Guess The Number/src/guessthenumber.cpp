@@ -11,6 +11,41 @@ void GuessTheNumber :: welcomeScreen() {
     cout << "============================\n\n";
 }
 
+void GuessTheNumber :: selectDifficulty(int& high) {
+    cout << "Enter Difficulty: \n";
+    cout << "1- Easy Mode \n";
+    cout << "2- Medium Mode \n";
+    cout << "3- Hard Mode \n";
+    cout << "Note: Default Mode is Medium... \n";
+    
+    int choice;
+    cout << "Choice: ";
+    cin >> choice;
+
+    if(cin.fail()) {
+        cin.clear();
+        cin.ignore(numeric_limits <streamsize> :: max(), '\n');
+        cout << "Invalid Choice! Default Difficulty is Medium... \n";
+    }
+
+    switch(choice) {
+        case 1:
+            high = 50;
+            cout << "Easy Mode Selected... \n";
+            break;
+        case 2:
+            high = 100;
+            cout << "Normal Mode Selected... \n";
+            break;
+        case 3:
+            high = 1000;
+            cout << "Hard Mode Selected... \n";
+            break;
+        default:
+            cout << "Default Mode Selected... \n";  // low = 1, high = 100 in main function;
+    }
+}
+
 void GuessTheNumber :: giveHint(int target) {
     cout << "Hint: The Number is ";
 
@@ -25,7 +60,7 @@ void GuessTheNumber :: giveHint(int target) {
     }
 }
 
-void GuessTheNumber :: playGame() {
+void GuessTheNumber :: playGame(int& low, int& high) {
     int originalNum;
     int guessedNum;
     int attempts = 0;
@@ -33,20 +68,20 @@ void GuessTheNumber :: playGame() {
     random_device rd;
     mt19937 gen(rd());
 
-    uniform_int_distribution<> distrib(1, 100);
+    uniform_int_distribution<> distrib(low, high);
 
     originalNum = distrib(gen);
 
-    cout << "I am thinking of a Number between 1 and 100.\n";
+    cout << "I am thinking of a Number between " << low << " and " << high << ".\n";
 
     while(true) {
         cout << "Enter Your Guess: ";
         cin >> guessedNum;
 
-        if(cin.fail() || guessedNum < 1 || guessedNum > 100) {
+        if(cin.fail() || guessedNum < low || guessedNum > high) {
             cin.clear();
             cin.ignore(numeric_limits <streamsize> :: max(), '\n');
-            cout << "Invalid Guess! Please Guess The Number Between 1 and 100.\n";
+            cout << "Invalid Guess! Please Guess The Number Between " << low << " and " << high << ".\n";
             continue;
         }
 

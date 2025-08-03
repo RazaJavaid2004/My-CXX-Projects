@@ -7,9 +7,12 @@ int main() {
     GuessTheNumber game;
     
     char choice;
+    int low = 1;
+    int high = 100;
     do {
         game.welcomeScreen();
-        game.playGame();
+        game.selectDifficulty(high);
+        game.playGame(low, high);
 
         cout << "Do You Want To Play Again... (Y/N)\n";
         cin >> choice;
