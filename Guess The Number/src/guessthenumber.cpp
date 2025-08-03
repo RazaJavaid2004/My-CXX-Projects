@@ -11,11 +11,12 @@ void GuessTheNumber :: welcomeScreen() {
     cout << "============================\n\n";
 }
 
-void GuessTheNumber :: selectDifficulty(int& high) {
+void GuessTheNumber :: selectDifficulty(int& low, int& high) {
     cout << "Enter Difficulty: \n";
     cout << "1- Easy Mode \n";
     cout << "2- Medium Mode \n";
     cout << "3- Hard Mode \n";
+    cout << "4- Custom Mode \n";
     cout << "Note: Default Mode is Medium... \n";
     
     int choice;
@@ -40,6 +41,17 @@ void GuessTheNumber :: selectDifficulty(int& high) {
         case 3:
             high = 1000;
             cout << "Hard Mode Selected... \n";
+            break;
+        case 4:
+            int lower, upper;
+            cout << "Enter the Starting Number: ";
+            cin >> lower;
+            cout << "Enter the Ending Number: ";
+            cin >> upper;
+
+            low = lower;
+            high = upper;
+            
             break;
         default:
             cout << "Default Mode Selected... \n";  // low = 1, high = 100 in main function;

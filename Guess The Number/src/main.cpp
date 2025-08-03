@@ -11,7 +11,7 @@ int main() {
     int high = 100;
     do {
         game.welcomeScreen();
-        game.selectDifficulty(high);
+        game.selectDifficulty(low, high);
         game.playGame(low, high);
 
         cout << "Do You Want To Play Again... (Y/N)\n";
