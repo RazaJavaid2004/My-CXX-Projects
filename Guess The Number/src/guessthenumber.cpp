@@ -11,6 +11,20 @@ void GuessTheNumber :: welcomeScreen() {
     cout << "============================\n\n";
 }
 
+void GuessTheNumber :: giveHint(int target) {
+    cout << "Hint: The Number is ";
+
+    if(target % 2 == 0) cout << "Even \n";
+    else cout << "Odd \n";
+
+    for(int i = 3; i <= 7; i += 2) {
+        if(target % i == 0) {
+            cout << "and is Divisible by " << i << ".\n";
+            break;
+        }
+    }
+}
+
 void GuessTheNumber :: playGame() {
     int originalNum;
     int guessedNum;
@@ -45,5 +59,7 @@ void GuessTheNumber :: playGame() {
             cout << "Congratulations! You Guessed The Number " << originalNum << " in " << attempts << " attempts.\n";
             break;
         }
+
+        if(attempts == 5) giveHint(originalNum);
     }
 }
