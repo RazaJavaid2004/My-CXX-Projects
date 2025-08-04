@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number"
+CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My C++ Projects\Guess The Number"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build"
+CMAKE_BINARY_DIR = "D:\Courses\My Codes\My C++ Projects\Guess The Number\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GuessTheNumber.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/GuessTheNumber.dir/codegen:
 
 CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj: CMakeFiles/GuessTheNumber.dir/flags.make
 CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj: CMakeFiles/GuessTheNumber.dir/includes_CXX.rsp
-CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj: D:/Courses/My\ Codes/My-Projects/C++\ Projects/Guess\ The\ Number/src/main.cpp
+CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj: D:/Courses/My\ Codes/My\ C++\ Projects/Guess\ The\ Number/src/main.cpp
 CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj: CMakeFiles/GuessTheNumber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj -MF CMakeFiles\GuessTheNumber.dir\src\main.cpp.obj.d -o CMakeFiles\GuessTheNumber.dir\src\main.cpp.obj -c "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\src\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj -MF CMakeFiles\GuessTheNumber.dir\src\main.cpp.obj.d -o CMakeFiles\GuessTheNumber.dir\src\main.cpp.obj -c "D:\Courses\My Codes\My C++ Projects\Guess The Number\src\main.cpp"
 
 CMakeFiles/GuessTheNumber.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GuessTheNumber.dir/src/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\src\main.cpp" > CMakeFiles\GuessTheNumber.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My C++ Projects\Guess The Number\src\main.cpp" > CMakeFiles\GuessTheNumber.dir\src\main.cpp.i
 
 CMakeFiles/GuessTheNumber.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GuessTheNumber.dir/src/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\src\main.cpp" -o CMakeFiles\GuessTheNumber.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My C++ Projects\Guess The Number\src\main.cpp" -o CMakeFiles\GuessTheNumber.dir\src\main.cpp.s
 
 CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj: CMakeFiles/GuessTheNumber.dir/flags.make
 CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj: CMakeFiles/GuessTheNumber.dir/includes_CXX.rsp
-CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj: D:/Courses/My\ Codes/My-Projects/C++\ Projects/Guess\ The\ Number/src/guessthenumber.cpp
+CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj: D:/Courses/My\ Codes/My\ C++\ Projects/Guess\ The\ Number/src/guessthenumber.cpp
 CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj: CMakeFiles/GuessTheNumber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj -MF CMakeFiles\GuessTheNumber.dir\src\guessthenumber.cpp.obj.d -o CMakeFiles\GuessTheNumber.dir\src\guessthenumber.cpp.obj -c "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\src\guessthenumber.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj -MF CMakeFiles\GuessTheNumber.dir\src\guessthenumber.cpp.obj.d -o CMakeFiles\GuessTheNumber.dir\src\guessthenumber.cpp.obj -c "D:\Courses\My Codes\My C++ Projects\Guess The Number\src\guessthenumber.cpp"
 
 CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\src\guessthenumber.cpp" > CMakeFiles\GuessTheNumber.dir\src\guessthenumber.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My C++ Projects\Guess The Number\src\guessthenumber.cpp" > CMakeFiles\GuessTheNumber.dir\src\guessthenumber.cpp.i
 
 CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\src\guessthenumber.cpp" -o CMakeFiles\GuessTheNumber.dir\src\guessthenumber.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My C++ Projects\Guess The Number\src\guessthenumber.cpp" -o CMakeFiles\GuessTheNumber.dir\src\guessthenumber.cpp.s
 
 # Object files for target GuessTheNumber
 GuessTheNumber_OBJECTS = \
@@ -115,7 +115,7 @@ GuessTheNumber.exe: CMakeFiles/GuessTheNumber.dir/build.make
 GuessTheNumber.exe: CMakeFiles/GuessTheNumber.dir/linkLibs.rsp
 GuessTheNumber.exe: CMakeFiles/GuessTheNumber.dir/objects1.rsp
 GuessTheNumber.exe: CMakeFiles/GuessTheNumber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GuessTheNumber.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Courses\My Codes\My C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GuessTheNumber.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GuessTheNumber.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/GuessTheNumber.dir/clean:
 .PHONY : CMakeFiles/GuessTheNumber.dir/clean
 
 CMakeFiles/GuessTheNumber.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number" "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number" "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build" "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build" "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build\CMakeFiles\GuessTheNumber.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Courses\My Codes\My C++ Projects\Guess The Number" "D:\Courses\My Codes\My C++ Projects\Guess The Number" "D:\Courses\My Codes\My C++ Projects\Guess The Number\build" "D:\Courses\My Codes\My C++ Projects\Guess The Number\build" "D:\Courses\My Codes\My C++ Projects\Guess The Number\build\CMakeFiles\GuessTheNumber.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/GuessTheNumber.dir/depend
 

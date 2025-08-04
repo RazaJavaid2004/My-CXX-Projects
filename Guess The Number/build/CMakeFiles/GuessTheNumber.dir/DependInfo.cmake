@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Courses/My Codes/My-Projects/C++ Projects/Guess The Number/src/guessthenumber.cpp" "CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj" "gcc" "CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj.d"
-  "D:/Courses/My Codes/My-Projects/C++ Projects/Guess The Number/src/main.cpp" "CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj" "gcc" "CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj.d"
+  "D:/Courses/My Codes/My C++ Projects/Guess The Number/src/guessthenumber.cpp" "CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj" "gcc" "CMakeFiles/GuessTheNumber.dir/src/guessthenumber.cpp.obj.d"
+  "D:/Courses/My Codes/My C++ Projects/Guess The Number/src/main.cpp" "CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj" "gcc" "CMakeFiles/GuessTheNumber.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

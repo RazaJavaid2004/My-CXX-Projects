@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number"
+CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My C++ Projects\Guess The Number"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build"
+CMAKE_BINARY_DIR = "D:\Courses\My Codes\My C++ Projects\Guess The Number\build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/GuessTheNumber.dir/clean
 CMakeFiles/GuessTheNumber.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GuessTheNumber.dir\build.make CMakeFiles/GuessTheNumber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GuessTheNumber.dir\build.make CMakeFiles/GuessTheNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=1,2,3 "Built target GuessTheNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=1,2,3 "Built target GuessTheNumber"
 .PHONY : CMakeFiles/GuessTheNumber.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GuessTheNumber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My C++ Projects\Guess The Number\build\CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GuessTheNumber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My C++ Projects\Guess The Number\build\CMakeFiles" 0
 .PHONY : CMakeFiles/GuessTheNumber.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ GuessTheNumber: CMakeFiles/GuessTheNumber.dir/rule
 # codegen rule for target.
 CMakeFiles/GuessTheNumber.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GuessTheNumber.dir\build.make CMakeFiles/GuessTheNumber.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target GuessTheNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My C++ Projects\Guess The Number\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target GuessTheNumber"
 .PHONY : CMakeFiles/GuessTheNumber.dir/codegen
 
 # clean rule for target.
