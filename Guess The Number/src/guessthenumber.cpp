@@ -1,14 +1,31 @@
 #include <iostream>
+#include <fstream>
 #include <random>
 #include <limits>
+#include <windows.h>
+#include <chrono>
 #include "guessthenumber.h"
 using namespace std;
 
+void GuessTheNumber :: setColor(int color) {
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+}
+
 void GuessTheNumber :: welcomeScreen() {
+    setColor(11);   // light cyan
     cout << "============================\n";
     cout << "     Guess the Number!\n";
     cout << "         by Raza\n";
     cout << "============================\n\n";
+    setColor(7);    // reset
+}
+
+void GuessTheNumber :: updateLeaderBoard(int attempts, double duration) {
+    ofstream file("leaderBoard.txt", ios :: app);
+    if(file.is_open()) {
+        file << "Attempts: " << attempts << " | Duration: " << duration << "s \n";
+        file.close();
+    }
 }
 
 void GuessTheNumber :: selectDifficulty(int& low, int& high) {
@@ -86,6 +103,8 @@ void GuessTheNumber :: playGame(int& low, int& high) {
 
     cout << "I am thinking of a Number between " << low << " and " << high << ".\n";
 
+    auto startTime = chrono :: steady_clock :: now();
+
     while(true) {
         cout << "Enter Your Guess: ";
         cin >> guessedNum;
@@ -100,13 +119,29 @@ void GuessTheNumber :: playGame(int& low, int& high) {
         attempts++;
         cout << "Your Guess: " << guessedNum << "\n";
 
-        if(guessedNum < originalNum) cout << "Too Low...\n";
-        else if(guessedNum > originalNum) cout << "Too High...\n";
+        if(guessedNum < originalNum) {
+            setColor(14);   // yellow
+            cout << "Too Low...\n";
+        }
+        else if(guessedNum > originalNum) {
+            setColor(12);   // red
+            cout << "Too High...\n";
+        }
         else {
+            setColor(10);   // green
+            auto endTime = chrono :: steady_clock :: now();
+
+            double duration = chrono :: duration <double> (endTime - startTime).count();
+
             cout << "Congratulations! You Guessed The Number " << originalNum << " in " << attempts << " attempts.\n";
+
+            updateLeaderBoard(attempts, duration);
+            setColor(7);    // reset
+
             break;
         }
 
+        setColor(7);     // reset
         if(attempts == 5) giveHint(originalNum);
     }
 }
