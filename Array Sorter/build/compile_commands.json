@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/Courses/My Codes/My-Projects/C++ Projects/Array Sorter/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ArraySorter.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\ArraySorter.dir\\src\\main.cpp.obj -c \"D:\\Courses\\My Codes\\My-Projects\\C++ Projects\\Array Sorter\\src\\main.cpp\"",
+  "file": "D:/Courses/My Codes/My-Projects/C++ Projects/Array Sorter/src/main.cpp",
+  "output": "CMakeFiles/ArraySorter.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Courses/My Codes/My-Projects/C++ Projects/Array Sorter/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ArraySorter.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\ArraySorter.dir\\src\\arraySorter.cpp.obj -c \"D:\\Courses\\My Codes\\My-Projects\\C++ Projects\\Array Sorter\\src\\arraySorter.cpp\"",
+  "file": "D:/Courses/My Codes/My-Projects/C++ Projects/Array Sorter/src/arraySorter.cpp",
+  "output": "CMakeFiles/ArraySorter.dir/src/arraySorter.cpp.obj"
+}
+]
