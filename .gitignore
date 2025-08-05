@@ -1,3 +1,4 @@
 *.exe
 *log*.txt
 Guess The Number/build/leaderBoard.txt
+*.vscode
