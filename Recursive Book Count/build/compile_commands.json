@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/Courses/My Codes/My C++ Projects/Recursive Book Count/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/RecursiveBookCount.dir/includes_CXX.rsp -g -Wall -Wextra -o CMakeFiles\\RecursiveBookCount.dir\\src\\main.cpp.obj -c \"D:\\Courses\\My Codes\\My C++ Projects\\Recursive Book Count\\src\\main.cpp\"",
+  "file": "D:/Courses/My Codes/My C++ Projects/Recursive Book Count/src/main.cpp",
+  "output": "CMakeFiles/RecursiveBookCount.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Courses/My Codes/My C++ Projects/Recursive Book Count/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/RecursiveBookCount.dir/includes_CXX.rsp -g -Wall -Wextra -o CMakeFiles\\RecursiveBookCount.dir\\src\\bookShelf.cpp.obj -c \"D:\\Courses\\My Codes\\My C++ Projects\\Recursive Book Count\\src\\bookShelf.cpp\"",
+  "file": "D:/Courses/My Codes/My C++ Projects/Recursive Book Count/src/bookShelf.cpp",
+  "output": "CMakeFiles/RecursiveBookCount.dir/src/bookShelf.cpp.obj"
+}
+]
