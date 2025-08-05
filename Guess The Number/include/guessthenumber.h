@@ -5,5 +5,6 @@ class GuessTheNumber {
     void updateLeaderBoard(int attempts, double duration);
     void selectDifficulty(int& low, int& high);
     void giveHint(int target);
+    void victoryArt();
     void playGame(int& low, int& high);
 };

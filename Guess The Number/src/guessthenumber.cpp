@@ -89,6 +89,19 @@ void GuessTheNumber :: giveHint(int target) {
     }
 }
 
+void GuessTheNumber :: victoryArt() {
+    setColor(9);
+    cout << "\n";
+    cout << R"(
+  ____   ___  _   _  ____ _____  _    _  ____  __     __
+ |  _ \ / _ \| \ | |/ ___|_   _|/ \  | |/ ___| \ \   / /
+ | | | | | | |  \| | |     | | / _ \ | | |      \ \ / / 
+ | |_| | |_| | |\  | |___  | |/ ___ \| | |___    \ V /  
+ |____/ \___/|_| \_|\____| |_/_/   \_\_|\____|    \_/   
+)";
+    cout << "\nCongratulations! You're a number ninja!\n";
+}
+
 void GuessTheNumber :: playGame(int& low, int& high) {
     int originalNum;
     int guessedNum;
@@ -134,8 +147,10 @@ void GuessTheNumber :: playGame(int& low, int& high) {
             double duration = chrono :: duration <double> (endTime - startTime).count();
 
             cout << "Congratulations! You Guessed The Number " << originalNum << " in " << attempts << " attempts.\n";
+            victoryArt();
 
             updateLeaderBoard(attempts, duration);
+
             setColor(7);    // reset
 
             break;
