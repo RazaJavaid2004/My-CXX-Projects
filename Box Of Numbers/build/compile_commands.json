@@ -1,14 +1,14 @@
 [
 {
-  "directory": "D:/Courses/My Codes/My-Projects/C++ Projects/Box Of Numbers/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/BoxOfNumbers.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\BoxOfNumbers.dir\\src\\main.cpp.obj -c \"D:\\Courses\\My Codes\\My-Projects\\C++ Projects\\Box Of Numbers\\src\\main.cpp\"",
-  "file": "D:/Courses/My Codes/My-Projects/C++ Projects/Box Of Numbers/src/main.cpp",
+  "directory": "D:/Courses/My Codes/My C++ Projects/Box Of Numbers/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/BoxOfNumbers.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\BoxOfNumbers.dir\\src\\main.cpp.obj -c \"D:\\Courses\\My Codes\\My C++ Projects\\Box Of Numbers\\src\\main.cpp\"",
+  "file": "D:/Courses/My Codes/My C++ Projects/Box Of Numbers/src/main.cpp",
   "output": "CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj"
 },
 {
-  "directory": "D:/Courses/My Codes/My-Projects/C++ Projects/Box Of Numbers/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/BoxOfNumbers.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\BoxOfNumbers.dir\\src\\boxOfNumbers.cpp.obj -c \"D:\\Courses\\My Codes\\My-Projects\\C++ Projects\\Box Of Numbers\\src\\boxOfNumbers.cpp\"",
-  "file": "D:/Courses/My Codes/My-Projects/C++ Projects/Box Of Numbers/src/boxOfNumbers.cpp",
+  "directory": "D:/Courses/My Codes/My C++ Projects/Box Of Numbers/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/BoxOfNumbers.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\BoxOfNumbers.dir\\src\\boxOfNumbers.cpp.obj -c \"D:\\Courses\\My Codes\\My C++ Projects\\Box Of Numbers\\src\\boxOfNumbers.cpp\"",
+  "file": "D:/Courses/My Codes/My C++ Projects/Box Of Numbers/src/boxOfNumbers.cpp",
   "output": "CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj"
 }
 ]

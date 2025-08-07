@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers"
+CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My C++ Projects\Box Of Numbers"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build"
+CMAKE_BINARY_DIR = "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BoxOfNumbers.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/BoxOfNumbers.dir/codegen:
 
 CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj: CMakeFiles/BoxOfNumbers.dir/flags.make
 CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj: CMakeFiles/BoxOfNumbers.dir/includes_CXX.rsp
-CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj: D:/Courses/My\ Codes/My-Projects/C++\ Projects/Box\ Of\ Numbers/src/main.cpp
+CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj: D:/Courses/My\ Codes/My\ C++\ Projects/Box\ Of\ Numbers/src/main.cpp
 CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj: CMakeFiles/BoxOfNumbers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj -MF CMakeFiles\BoxOfNumbers.dir\src\main.cpp.obj.d -o CMakeFiles\BoxOfNumbers.dir\src\main.cpp.obj -c "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\src\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj -MF CMakeFiles\BoxOfNumbers.dir\src\main.cpp.obj.d -o CMakeFiles\BoxOfNumbers.dir\src\main.cpp.obj -c "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\src\main.cpp"
 
 CMakeFiles/BoxOfNumbers.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BoxOfNumbers.dir/src/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\src\main.cpp" > CMakeFiles\BoxOfNumbers.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\src\main.cpp" > CMakeFiles\BoxOfNumbers.dir\src\main.cpp.i
 
 CMakeFiles/BoxOfNumbers.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BoxOfNumbers.dir/src/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\src\main.cpp" -o CMakeFiles\BoxOfNumbers.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\src\main.cpp" -o CMakeFiles\BoxOfNumbers.dir\src\main.cpp.s
 
 CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj: CMakeFiles/BoxOfNumbers.dir/flags.make
 CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj: CMakeFiles/BoxOfNumbers.dir/includes_CXX.rsp
-CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj: D:/Courses/My\ Codes/My-Projects/C++\ Projects/Box\ Of\ Numbers/src/boxOfNumbers.cpp
+CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj: D:/Courses/My\ Codes/My\ C++\ Projects/Box\ Of\ Numbers/src/boxOfNumbers.cpp
 CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj: CMakeFiles/BoxOfNumbers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj -MF CMakeFiles\BoxOfNumbers.dir\src\boxOfNumbers.cpp.obj.d -o CMakeFiles\BoxOfNumbers.dir\src\boxOfNumbers.cpp.obj -c "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\src\boxOfNumbers.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj -MF CMakeFiles\BoxOfNumbers.dir\src\boxOfNumbers.cpp.obj.d -o CMakeFiles\BoxOfNumbers.dir\src\boxOfNumbers.cpp.obj -c "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\src\boxOfNumbers.cpp"
 
 CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\src\boxOfNumbers.cpp" > CMakeFiles\BoxOfNumbers.dir\src\boxOfNumbers.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\src\boxOfNumbers.cpp" > CMakeFiles\BoxOfNumbers.dir\src\boxOfNumbers.cpp.i
 
 CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\src\boxOfNumbers.cpp" -o CMakeFiles\BoxOfNumbers.dir\src\boxOfNumbers.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\src\boxOfNumbers.cpp" -o CMakeFiles\BoxOfNumbers.dir\src\boxOfNumbers.cpp.s
 
 # Object files for target BoxOfNumbers
 BoxOfNumbers_OBJECTS = \
@@ -115,7 +115,7 @@ BoxOfNumbers.exe: CMakeFiles/BoxOfNumbers.dir/build.make
 BoxOfNumbers.exe: CMakeFiles/BoxOfNumbers.dir/linkLibs.rsp
 BoxOfNumbers.exe: CMakeFiles/BoxOfNumbers.dir/objects1.rsp
 BoxOfNumbers.exe: CMakeFiles/BoxOfNumbers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BoxOfNumbers.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BoxOfNumbers.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BoxOfNumbers.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/BoxOfNumbers.dir/clean:
 .PHONY : CMakeFiles/BoxOfNumbers.dir/clean
 
 CMakeFiles/BoxOfNumbers.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers" "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers" "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build" "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build" "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build\CMakeFiles\BoxOfNumbers.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Courses\My Codes\My C++ Projects\Box Of Numbers" "D:\Courses\My Codes\My C++ Projects\Box Of Numbers" "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build" "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build" "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build\CMakeFiles\BoxOfNumbers.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/BoxOfNumbers.dir/depend
 

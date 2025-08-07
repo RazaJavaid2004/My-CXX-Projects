@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Courses/My Codes/My-Projects/C++ Projects/Box Of Numbers/src/boxOfNumbers.cpp" "CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj" "gcc" "CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj.d"
-  "D:/Courses/My Codes/My-Projects/C++ Projects/Box Of Numbers/src/main.cpp" "CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj" "gcc" "CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj.d"
+  "D:/Courses/My Codes/My C++ Projects/Box Of Numbers/src/boxOfNumbers.cpp" "CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj" "gcc" "CMakeFiles/BoxOfNumbers.dir/src/boxOfNumbers.cpp.obj.d"
+  "D:/Courses/My Codes/My C++ Projects/Box Of Numbers/src/main.cpp" "CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj" "gcc" "CMakeFiles/BoxOfNumbers.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

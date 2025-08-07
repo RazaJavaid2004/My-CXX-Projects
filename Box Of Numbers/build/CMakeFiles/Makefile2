@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers"
+CMAKE_SOURCE_DIR = "D:\Courses\My Codes\My C++ Projects\Box Of Numbers"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build"
+CMAKE_BINARY_DIR = "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/BoxOfNumbers.dir/clean
 CMakeFiles/BoxOfNumbers.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxOfNumbers.dir\build.make CMakeFiles/BoxOfNumbers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxOfNumbers.dir\build.make CMakeFiles/BoxOfNumbers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=1,2,3 "Built target BoxOfNumbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=1,2,3 "Built target BoxOfNumbers"
 .PHONY : CMakeFiles/BoxOfNumbers.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BoxOfNumbers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build\CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BoxOfNumbers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build\CMakeFiles" 0
 .PHONY : CMakeFiles/BoxOfNumbers.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ BoxOfNumbers: CMakeFiles/BoxOfNumbers.dir/rule
 # codegen rule for target.
 CMakeFiles/BoxOfNumbers.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxOfNumbers.dir\build.make CMakeFiles/BoxOfNumbers.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My-Projects\C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target BoxOfNumbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\Courses\My Codes\My C++ Projects\Box Of Numbers\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target BoxOfNumbers"
 .PHONY : CMakeFiles/BoxOfNumbers.dir/codegen
 
 # clean rule for target.
