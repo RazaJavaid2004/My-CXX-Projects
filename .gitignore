@@ -1,5 +1,6 @@
-*.exe
 *.vscode
 log.txt
+a.exe
 */leaderBoard.txt
 Guess The Number/build/leaderBoard.txt
+*.exe
