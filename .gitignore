@@ -1,5 +1,4 @@
 *.exe
-*/log.txt
-Guess The Number/build/leaderBoard.txt
 *.vscode
-*.txt
+log.txt
+*/leaderBoard.txt
