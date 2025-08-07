@@ -1,0 +1,3 @@
+D:/Courses/My Codes/My C++ Projects/Guess The Number/build/CMakeFiles/GuessTheNumber.dir
+D:/Courses/My Codes/My C++ Projects/Guess The Number/build/CMakeFiles/edit_cache.dir
+D:/Courses/My Codes/My C++ Projects/Guess The Number/build/CMakeFiles/rebuild_cache.dir
