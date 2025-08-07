@@ -1,3 +1,0 @@
-D:/Courses/My Codes/My-Projects/C++ Projects/Array Sorter/build/CMakeFiles/ArraySorter.dir
-D:/Courses/My Codes/My-Projects/C++ Projects/Array Sorter/build/CMakeFiles/edit_cache.dir
-D:/Courses/My Codes/My-Projects/C++ Projects/Array Sorter/build/CMakeFiles/rebuild_cache.dir
