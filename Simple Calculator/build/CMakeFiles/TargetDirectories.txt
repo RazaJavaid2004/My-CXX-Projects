@@ -1,0 +1,3 @@
+D:/Courses/My Codes/My C++ Projects/Simple Calculator/build/CMakeFiles/SimpleCalculator.dir
+D:/Courses/My Codes/My C++ Projects/Simple Calculator/build/CMakeFiles/edit_cache.dir
+D:/Courses/My Codes/My C++ Projects/Simple Calculator/build/CMakeFiles/rebuild_cache.dir
