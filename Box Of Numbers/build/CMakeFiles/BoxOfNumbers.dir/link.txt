@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\BoxOfNumbers.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\BoxOfNumbers.dir/objects.a @CMakeFiles\BoxOfNumbers.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BoxOfNumbers.dir/objects.a -Wl,--no-whole-archive -o BoxOfNumbers.exe -Wl,--out-implib,libBoxOfNumbers.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BoxOfNumbers.dir\linkLibs.rsp

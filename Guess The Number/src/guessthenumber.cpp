@@ -63,6 +63,7 @@ void GuessTheNumber :: selectDifficulty(int& low, int& high) {
             int lower, upper;
             cout << "Enter the Starting Number: ";
             cin >> lower;
+
             cout << "Enter the Ending Number: ";
             cin >> upper;
 
