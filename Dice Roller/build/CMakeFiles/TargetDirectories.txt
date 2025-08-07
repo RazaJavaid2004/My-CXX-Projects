@@ -1,0 +1,3 @@
+D:/My-Projects/C++ Projects/Dice Roller/build/CMakeFiles/DiceRoller.dir
+D:/My-Projects/C++ Projects/Dice Roller/build/CMakeFiles/edit_cache.dir
+D:/My-Projects/C++ Projects/Dice Roller/build/CMakeFiles/rebuild_cache.dir

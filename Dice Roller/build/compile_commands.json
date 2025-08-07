@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/My-Projects/C++ Projects/Dice Roller/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/DiceRoller.dir/includes_CXX.rsp -g -Wall -Wextra -o CMakeFiles\\DiceRoller.dir\\src\\main.cpp.obj -c \"D:\\My-Projects\\C++ Projects\\Dice Roller\\src\\main.cpp\"",
+  "file": "D:/My-Projects/C++ Projects/Dice Roller/src/main.cpp",
+  "output": "CMakeFiles/DiceRoller.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/My-Projects/C++ Projects/Dice Roller/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/DiceRoller.dir/includes_CXX.rsp -g -Wall -Wextra -o CMakeFiles\\DiceRoller.dir\\src\\diceroller.cpp.obj -c \"D:\\My-Projects\\C++ Projects\\Dice Roller\\src\\diceroller.cpp\"",
+  "file": "D:/My-Projects/C++ Projects/Dice Roller/src/diceroller.cpp",
+  "output": "CMakeFiles/DiceRoller.dir/src/diceroller.cpp.obj"
+}
+]
