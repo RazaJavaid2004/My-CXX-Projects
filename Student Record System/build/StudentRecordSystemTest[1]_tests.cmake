@@ -1,0 +1,5 @@
+add_test([=[StudentRecordSystemTest.Initialization]=]  [==[D:/Courses/My Codes/My C++ Projects/Student Record System/build/StudentRecordSystemTest.exe]==] [==[--gtest_filter=StudentRecordSystemTest.Initialization]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StudentRecordSystemTest.Initialization]=]  PROPERTIES WORKING_DIRECTORY [==[D:/Courses/My Codes/My C++ Projects/Student Record System/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[StudentRecordSystemTest.SettersWork]=]  [==[D:/Courses/My Codes/My C++ Projects/Student Record System/build/StudentRecordSystemTest.exe]==] [==[--gtest_filter=StudentRecordSystemTest.SettersWork]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StudentRecordSystemTest.SettersWork]=]  PROPERTIES WORKING_DIRECTORY [==[D:/Courses/My Codes/My C++ Projects/Student Record System/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  StudentRecordSystemTest_TESTS StudentRecordSystemTest.Initialization StudentRecordSystemTest.SettersWork)

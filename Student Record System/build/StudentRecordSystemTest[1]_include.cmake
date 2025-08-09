@@ -1,0 +1,5 @@
+if(EXISTS "D:/Courses/My Codes/My C++ Projects/Student Record System/build/StudentRecordSystemTest[1]_tests.cmake")
+  include("D:/Courses/My Codes/My C++ Projects/Student Record System/build/StudentRecordSystemTest[1]_tests.cmake")
+else()
+  add_test(StudentRecordSystemTest_NOT_BUILT StudentRecordSystemTest_NOT_BUILT)
+endif()
