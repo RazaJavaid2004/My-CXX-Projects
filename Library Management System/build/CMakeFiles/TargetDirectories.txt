@@ -1,0 +1,5 @@
+D:/Courses/My Codes/My C++ Projects/Library Management System/build/CMakeFiles/LibrarySystem.dir
+D:/Courses/My Codes/My C++ Projects/Library Management System/build/CMakeFiles/LibraryTests.dir
+D:/Courses/My Codes/My C++ Projects/Library Management System/build/CMakeFiles/test.dir
+D:/Courses/My Codes/My C++ Projects/Library Management System/build/CMakeFiles/edit_cache.dir
+D:/Courses/My Codes/My C++ Projects/Library Management System/build/CMakeFiles/rebuild_cache.dir
