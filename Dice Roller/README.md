@@ -92,3 +92,10 @@ Pull requests are welcome! Ideas for enhancements:
 This project is licensed under the [MIT License](LICENSE).
 
 Enjoy rolling the dice! 🎲✨
+---
+
+## 🙌 Author
+
+Developed by [Muhammad Raza](https://github.com/RazaJavaid2004)  
+For learning, portfolio, and demonstration purposes.
+---
