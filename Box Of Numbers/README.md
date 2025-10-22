@@ -1,51 +1,112 @@
-# 📦 Box of Numbers
+# 📦 Box Of Numbers (C++)
 
-**Box of Numbers** is a simple yet elegant C++ console application that takes five integers as input from the user, calculates their sum and average, and displays the results in a neat format. This project serves as a foundation for mastering input/output handling and basic arithmetic in C++.
+A simple C++ program that simulates a container of integers and computes their sum and average. Built with modular design and CMake integration, this project reinforces input validation, vector operations, and basic statistics.
+
+---
 
 ## 🚀 Features
 
-- Accepts **5 integer inputs** from the user
-- Calculates and displays:
-  - **Sum** of the numbers
-  - **Average** of the numbers (as a floating-point value)
-- Lightweight, beginner-friendly code structure
+- 🔢 Accepts dynamic user input for vector size and elements
+- ➕ Calculates total sum of all numbers
+- 📊 Computes average with precision
+- 🔁 Replay loop for multiple sessions
+- 🧩 Modular structure with header/source separation
 
-## 🔧 How to Run
+---
 
-### 🖥 Prerequisites
-- A C++ compiler (e.g. GCC, Clang, or MSVC)
-- VS Code or any C++-friendly IDE
-- Command line access
+## 🧠 Concepts Covered
 
-⚙️ Compilation Instructions (Terminal)
-Assuming you're in the project root directory, compile like this:
+- Input validation using `cin.fail()` and `limits`
+- Vector manipulation (`std::vector`)
+- Basic statistics (sum, average)
+- Function encapsulation and class design
+- CMake build system and batch execution
 
-g++ -Iinclude src/main.cpp src/boxOfNumbers.cpp -o build/BoxOfNumbers.exe
+---
 
-- -Iinclude tells the compiler to look for headers in the include folder.
-- This compiles both source files and links them into BoxOfNumbers.exe inside the build folder.
+## 📂 File Structure
 
-🚀 How to Run
-You can run the program using:
-build/BoxOfNumbers.exe
+```
+Box Of Numbers/
+├── include/
+│   └── boxOfNumbers.h         # Class declaration
+├── src/
+│   ├── boxOfNumbers.cpp       # Input, sum, average logic
+│   └── main.cpp               # User interaction and loop
+├── CMakeLists.txt             # Build configuration
+├── run.bat                    # Windows batch script
+├── build/                     # CMake-generated build artifacts
+```
 
-Or just double-click your .bat launcher for convenience.
+---
 
-📷 Sample Output
-Enter 5 numbers:
-12 45 67 23 89
+## ⚙️ How to Build & Run
 
-Sum = 236
-Average = 47.2
+### 🖥️ Using CMake (Recommended)
 
-💡 Ideas for Future Enhancements
-- Make input size dynamic instead of fixed at 5
-- Add input validation to catch non-numeric or invalid entries
-- Include statistics like min, max, median, or even mode
-- Introduce ASCII splash screens or colorful output for presentation polish
+```bash
+mkdir build
+cd build
+cmake ..
+make
+./BoxOfNumbers
+```
 
-🧠 Author
-Created by Muhammad Raza — always learning, always building. 👨‍💻
-Project designed to explore core C++ fundamentals with a clean user interface.
-📜 License
-This project is open-source under the MIT License. Feel free to fork, modify, and build on it!
+### 🪟 On Windows (Batch Script)
+
+Double-click `run.bat` or run from terminal:
+
+```cmd
+run.bat
+```
+
+---
+
+## 📝 Sample Output
+
+```
+Enter the size of the Vector (positive integer): 4
+Enter the Numbers:
+Number 1: 10
+Number 2: 20
+Number 3: 30
+Number 4: 40
+Sum: 100
+Average: 25
+
+Do You Want To Play Again... (Y/N)
+y
+Enter the size of the Vector (positive integer): -5
+Invalid size. Please enter a positive integer.
+Enter the size of the Vector (positive integer): abc
+Invalid size. Please enter a positive integer.
+Enter the size of the Vector (positive integer): 3
+Enter the Numbers:
+Number 1: 5
+Number 2: xyz
+Invalid input. Please enter a valid integer.
+Number 2: 15
+Number 3: 25
+Sum: 45
+Average: 15
+
+Do You Want To Play Again... (Y/N)
+n
+Thank You for Playing the Game...
+Exiting...
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🙌 Author
+
+Developed by [Muhammad Raza](https://github.com/RazaJavaid2004)  
+For learning, portfolio, and demonstration purposes.
+
+---
