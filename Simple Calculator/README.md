@@ -1,57 +1,108 @@
-# 🧮 Simple Calculator in C++
+# 🧮 Simple Calculator (C++)
 
-This is a basic console application written in C++ that performs fundamental arithmetic operations between two user-provided numbers. It's designed to showcase beginner-friendly control flow and input/output handling using a `switch` statement.
+A console-based calculator built in C++ that performs basic arithmetic operations with input validation and a menu-driven interface. Designed for clarity, modularity, and ease of use, this project reinforces core programming concepts and user interaction.
 
-## ✨ Features
+---
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
+## 🚀 Features
 
-## 🛠️ Technologies Used
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division (with zero-check and NaN handling)
+- 🧠 Input validation using `cin.fail()` and `limits`
+- 🔁 Menu loop for continuous calculations
+- 🧩 Modular class design with header/source separation
 
-- C++
-- Standard I/O (`cin`, `cout`)
-- Control flow (`switch` statement)
+---
 
-## 🚀 Getting Started
+## 🧠 Concepts Covered
 
-### Prerequisites
+- Function encapsulation and class design
+- Input validation and error handling
+- Switch-case control flow
+- CMake build system integration
+- Clean separation of logic and interface
 
-- A C++ compiler (e.g., g++, clang)
-- Command-line terminal or IDE (e.g., VS Code, Code::Blocks)
+---
 
-### How to Run
+## 📂 File Structure
 
-1. Compile the Code:
-   ```bash
-   g++ calculator.cpp -o calculator
+```
+Simple Calculator/
+├── include/
+│   └── simpleCalculator.h       # Class declaration
+├── src/
+│   ├── simpleCalculator.cpp     # Operation logic and menu
+│   └── main.cpp                 # Entry point
+├── CMakeLists.txt               # Build configuration
+├── run.bat                      # Windows batch script
+├── build/                       # CMake-generated build artifacts
+```
 
-2. Run the Executable:
-   ```bash
-   ./calculator
+---
 
-📦 Example
+## ⚙️ How to Build & Run
+
+### 🖥️ Using CMake (Recommended)
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+./SimpleCalculator
+```
+
+### 🪟 On Windows (Batch Script)
+
+Double-click `run.bat` or run from terminal:
+
+```cmd
+run.bat
+```
+
+---
+
+## 📝 Sample Output
+
+```
 --------Main Menu----------
-1- Addition
-2- Subtraction
-3- Multiplication
-4- Division
-5- Exit
+1- Addition 
+2- Subtraction 
+3- Multiplication 
+4- Division 
+5- Exit 
 Enter Your Choice: 1
-Enter the Numbers:
-2
-3
-Sum: 5
+Enter the First Number: 10
+Enter the Second Number: 5
+Sum: 15
 
-📈 Future Improvements- Input validation (e.g., division by zero handling)
-- Support for more operations like modulus, exponentiation
-- GUI version using SFML or Qt
-- Unit tests for verifying logic
+--------Main Menu----------
+Enter Your Choice: 4
+Enter the First Number: 20
+Enter the Second Number: 0
+Error: Division by zero is not allowed. 
+Quotient: nan
 
-🤝 Contributing
-Feel free to fork the project and suggest improvements. Pull requests are welcome!
+--------Main Menu----------
+Enter Your Choice: 5
+Exiting...
+```
 
-📝 License
+---
+
+## 📄 License
+
 This project is licensed under the MIT License.
+
+---
+
+## 🙌 Author
+
+Developed by [Muhammad Raza](https://github.com/RazaJavaid2004)  
+For learning, portfolio, and demonstration purposes.
+
+---
+
+---
