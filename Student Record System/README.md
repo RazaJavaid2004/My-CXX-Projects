@@ -1,114 +1,107 @@
-Awesome setup, Raza! You've got a clean and professional project structure. Based on your layout, here's an updated and well-organized `README.md` that reflects your directory structure and guides users through building and running the project with CMake.
+# 🧾 Student Record System (C++)
 
----
-
-### 📘 `README.md`
-
-```markdown
-# 🎓 Student Record System
-
-A simple C++ project that models a student record system using classes and vectors. It allows you to store, retrieve, and update student information such as name, roll number, and marks.
-
----
-
-## 📁 Project Structure
-
-```
-
-StudentRecordSystem/
-├── include/
-│   └── StudentRecordSystem.h
-├── src/
-│   ├── main.cpp
-│   └── StudentRecordSystem.cpp
-├── tests/
-│   └── StudentRecordSystemTest.cpp
-├── build/
-├── CMakeLists.txt
-└── README.md
-
-```
-
----
-
-## 🛠️ Build Instructions
-
-### 🔧 Prerequisites
-
-- C++ compiler (e.g. GCC, Clang, MSVC)
-- [CMake](https://cmake.org/) installed
-
-### ⚙️ Steps to Build
-
-1. **Clone or download the project**
-
-2. **Create a build directory** (if not already present):
-   ```bash
-   mkdir build
-   cd build
-```
-
-3. **Run CMake to configure the project**:
-
-   ```bash
-   cmake ..
-   ```
-4. **Build the executable**:
-
-   ```bash
-   cmake --build .
-   ```
-5. **Run the program**:
-
-   ```bash
-   ./StudentRecordSystem
-   ```
-
-   > On Windows, use `StudentRecordSystem.exe`
-   >
+A modular C++ class-based system for managing student records, including name, roll number, and marks. This project demonstrates encapsulation, vector handling, and unit testing using Google Test — ideal for showcasing object-oriented design and test-driven development.
 
 ---
 
 ## 🚀 Features
 
-- Encapsulated student data using C++ classes
-- Getter and setter methods for controlled access
-- Modular design with separate header and source files
-- CMake-based build system for cross-platform compatibility
+- 🧑‍🎓 Create and manage student records
+- ✏️ Modify student name, roll number, and marks
+- 📊 Retrieve and display student details
+- ✅ Unit tests using Google Test framework
+- 🧩 Modular structure with header/source separation
+- 🛠️ CMake build system integration
 
 ---
 
-## 📄 Sample Output
+## 🧠 Concepts Covered
+
+- Class design and encapsulation
+- Constructor initialization and setter/getter methods
+- Vector manipulation (`std::vector`)
+- Unit testing with `gtest`
+- CMake-based build and test configuration
+
+---
+
+## 📂 File Structure
+
+```
+Student Record System/
+├── include/
+│   └── StudentRecordSystem.h         # Class declaration
+├── src/
+│   ├── StudentRecordSystem.cpp       # Implementation of methods
+│   └── main.cpp                      # Demo usage and output
+├── tests/
+│   └── StudentRecordSystemTest.cpp   # Google Test unit tests
+├── CMakeLists.txt                    # Build configuration
+├── run.bat                           # Optional Windows batch script
+├── build/                            # CMake-generated build artifacts
+```
+
+---
+
+## ⚙️ How to Build & Run
+
+### 🖥️ Using CMake (Recommended)
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+./StudentRecordSystem
+```
+
+### 🧪 Run Tests (Google Test)
+
+Make sure Google Test is installed and linked in your CMake setup.
+
+```bash
+./StudentRecordSystemTest
+```
+
+---
+
+## 📝 Sample Output
 
 ```
 Student Name: Muhammad Raza
-Roll Number: 101
-Marks: 85 90 78
+Roll Number: 24175
+Marks: 85 90 78 
 
 Updated Student Record:
 Student Name: M. Raza
-Roll Number: 202
+Roll Number: 138
 Marks: 88 92 95
 ```
 
 ---
 
-## 📚 Future Enhancements
+## 🧪 Sample Test Results
 
-- Support for multiple student records
-- Average marks and grade calculation
-- File I/O for persistent storage
-- GUI or web-based interface
+```
+[ RUN      ] StudentRecordSystemTest.Initialization
+[       OK ] StudentRecordSystemTest.Initialization (0 ms)
+[ RUN      ] StudentRecordSystemTest.SettersWork
+[       OK ] StudentRecordSystemTest.SettersWork (0 ms)
 
----
-
-## 👨‍💻 Author
-
-**Muhammad Raza**
-Passionate about C++, algorithms, and polished workflows.
+[==========] 2 tests from StudentRecordSystemTest passed.
+```
 
 ---
 
-## 📜 License
+## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
+
+---
+
+## 🙌 Author
+
+Developed by [Muhammad Raza](https://github.com/RazaJavaid2004)  
+For learning, portfolio, and demonstration purposes.
+
+---
